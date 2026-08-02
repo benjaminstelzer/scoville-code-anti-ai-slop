@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-02: README factual corrections
+
+### Changed
+
+- Corrected the documented frontmatter size from 64 words to 62.
+- Anchored the exact `SKILL.md` and `AGENTS-SECTION.md` rule-text comparison at
+  `Treat AI slop`, after their intentionally different openings.
+
 ## 2026-07-26: Installable skill separated from repository documentation
 
 ### Changed

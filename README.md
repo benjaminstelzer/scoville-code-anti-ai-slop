@@ -69,7 +69,7 @@ behavior or contract effect, and how should it be validated?"* When neither user
 nor repository rules replace Scoville's defaults, you should get **Develop**
 with at most one existing focused check: no plan, no new test, no broad suite.
 
-**What it costs.** `SKILL.md` currently contains 1,953 words of rules plus 64
+**What it costs.** `SKILL.md` currently contains 1,953 words of rules plus 62
 words of frontmatter. A compatible agent loads the instructions when the skill
 triggers, although exact context accounting depends on the agent. Installing it
 per project limits where it is available; it does not reduce the cost of an
@@ -90,11 +90,11 @@ instruction file: `AGENTS.md` for Codex, `CLAUDE.md` for Claude Code.
 > delivery mechanism is enough. Two copies can drift apart, and when the skill
 > triggers, the same rules load into context twice and cost additional tokens.
 
-`AGENTS-SECTION.md` carries the same rule text as `SKILL.md`, verified
-character for character from the first heading onward; only the packaging and
-the opening scope paragraph differ. What differs is when the rules arrive: the
-skill loads on demand, the embedded section is active from the first action.
-The file is regenerated whenever `SKILL.md` changes.
+`AGENTS-SECTION.md` carries the same rule text as `SKILL.md`, verified character
+for character from `Treat AI slop` onward. Its opening scope paragraph replaces
+the skill frontmatter. What differs is when the rules arrive: the skill loads on
+demand, the embedded section is active from the first action. The file is
+regenerated whenever `SKILL.md` changes.
 
 ## What it enforces
 
